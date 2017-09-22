@@ -10,8 +10,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 	<!-- Core Meta Data -->
-	<meta name="description" content="Buniwa Humphrey Mburu Nairobi, Kenya. Web and Mobile development">
-	<meta name="keywords" content="Buniwa Humphrey Mburu Nairobi, Kenya. Web and Mobile development">
+	<meta name="description" content="Buniwa Humphrey Mburu Muhiu Nairobi, Kenya. Web and Mobile development">
+	<meta name="keywords" content="Buniwa Humphrey Mburu Muhiu  Nairobi, Kenya. Web and Mobile development">
 
 	<!-- Favicon -->
 	<link rel="shortcut icon" href="favicon.png" type="image/png">
@@ -189,6 +189,15 @@
 				
 			</div><!-- END Container -->
 
+			<div class="thumbnails dark">
+				<div class="thumbnail web-design lefty">
+					<div class="overlay"></div>
+					<div class="project-info">
+						<a class="button dark" href="http://www.tree4health.org/">Tree4Health</a>
+					</div>
+					<img src="images/portfolio/tree.jpg" alt="Tree4Health">
+				</div>
+		
 			<div class="thumbnails dark">
 				<div class="thumbnail web-design lefty">
 					<div class="overlay"></div>
