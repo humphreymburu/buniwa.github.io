@@ -680,3 +680,31 @@ img::-moz-selection{
     color: #000;
     text-decoration: underline;
 }
+.text-uppercase {
+    text-transform: uppercase!important;
+}
+  
+.portfolio-modal .modal-content h2 {
+    font-size: 3em;
+    margin-bottom: 15px;
+    color: #000;
+}
+
+.portfolio-modal .modal-content p {
+    margin-bottom: 30px;
+    color: #000;
+}
+
+p {
+    line-height: 1.75;
+}
+.portfolio-modal .modal-content ul.list-inline {
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: #000;
+}
+.btn-primary {
+    color: #000;
+    background-color: #c5c2bb;
+    border-color:#c5c2bb;
+}
