@@ -4,19 +4,18 @@ export default function Hero() {
       <div className="hero-grid-overlay"></div>
       <div className="hero-location">NAIROBI · KENYA</div>
 
-      <p className="hero-tag">FULL-STACK DEVELOPER &amp; SECURITY CONSULTANT</p>
+      <p className="hero-tag">FULL-STACK DEVELOPER</p>
 
       <h1 className="hero-headline">
         BUILDING<br />
-        DIGITAL<br />
-        <em>PRODUCTS</em>
+        <em>EXPERIENCES</em>
       </h1>
 
       <div className="hero-bottom">
         <p className="hero-desc">
-          <strong>Humphrey Mburu</strong> — based in Nairobi, Kenya.
-          5+ years crafting performant web and mobile experiences for global
-          organizations, with a sharp focus on security-first architecture.
+          <strong>Humphrey Mburu</strong> — Full-Stack Developer based in
+          Nairobi, Kenya. Building scalable web applications, AI-powered
+          solutions, and digital products for global organizations.
         </p>
 
         <div className="hero-actions">

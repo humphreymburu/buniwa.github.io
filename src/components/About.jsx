@@ -1,7 +1,7 @@
 const SKILLS = [
-  'PHP', 'Python', 'JavaScript', 'Angular', 'React', 'Vue.js',
-  'Node.js', 'MEAN Stack', 'Ionic', 'Drupal', 'WordPress',
-  'SharePoint', 'PostgreSQL', 'Firebase', 'ASP.NET', 'Penetration Testing',
+  'TypeScript', 'React', 'Next.js', 'NestJS', 'Python',
+  'Node.js', 'Drupal', 'WordPress', 'PostgreSQL', 'Firebase',
+  'REST APIs', 'GraphQL', 'AWS', 'Docker', 'AI / LLMs',
 ]
 
 export default function About() {
@@ -10,24 +10,23 @@ export default function About() {
       <div className="about-sticky">
         <div className="section-eyebrow reveal">ABOUT</div>
         <h2 className="about-heading reveal reveal-1">
-          DEVELOPER<br />
-          WITH A<br />
-          <em>DESIGNER&apos;S</em><br />
-          EYE
+          FULL-STACK<br />
+          PRODUCT<br />
+          <em>ENGINEER</em>
         </h2>
       </div>
 
       <div className="about-right">
         <p className="about-bio reveal reveal-1">
-          Currently based in <strong>Nairobi, Kenya</strong>, I&apos;m a full-stack
-          developer with over <strong>5 years of experience</strong> building across
-          PHP, Java, Python, JavaScript, and the MEAN stack. I work with HTML5, CSS3,
-          and frameworks including Angular, React, and Vue.js.
+          Based in <strong>Nairobi, Kenya</strong>, I&apos;m a Full-Stack Developer
+          and AI Engineer with <strong>5+ years of experience</strong> building
+          scalable web applications, enterprise platforms, and intelligent systems
+          for global organizations.
           <br /><br />
-          Beyond development, I&apos;m deeply passionate about{' '}
-          <strong>Information Security</strong> — working as a consultant for various
-          organizations, helping them identify vulnerabilities and build more resilient
-          systems.
+          I specialize in <strong>TypeScript, React, Next.js, NestJS, Python,
+          Drupal</strong>, cloud infrastructure, and AI-powered solutions —
+          combining engineering excellence with a strong focus on user experience
+          and performance.
         </p>
 
         <div className="skills-block reveal reveal-2">

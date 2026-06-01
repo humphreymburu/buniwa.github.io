@@ -1,23 +1,23 @@
 const SERVICES = [
   {
     icon: '01',
-    name: 'WEB DEVELOPMENT',
-    desc: 'Full-stack web applications built with PHP, JavaScript, Python and modern frameworks. From marketing sites to enterprise platforms.',
+    name: 'PRODUCT ENGINEERING',
+    desc: 'End-to-end development of digital products — from architecture and backend systems to polished, performant front-ends built to scale.',
   },
   {
     icon: '02',
-    name: 'MOBILE APPLICATIONS',
-    desc: 'Hybrid mobile apps using Ionic and Angular with Firebase backends. Native-quality experiences on both iOS and Android.',
+    name: 'AI SOLUTIONS',
+    desc: 'Integrating machine learning and AI into real products. From intelligent APIs and data pipelines to LLM-powered features that create genuine value.',
   },
   {
     icon: '03',
-    name: 'CMS DEVELOPMENT',
-    desc: 'Custom Drupal, WordPress, SharePoint and DotNetNuke solutions. Complex content structures with tailored admin experiences.',
+    name: 'PLATFORM DEVELOPMENT',
+    desc: 'Cloud-native platforms and infrastructure built for reliability and growth. APIs, microservices, CMS systems, and enterprise integrations.',
   },
   {
     icon: '04',
-    name: 'SECURITY CONSULTING',
-    desc: 'Penetration testing, vulnerability assessments and security audits. Helping organizations identify and remediate risk before attackers do.',
+    name: 'EXPERIENCE DESIGN',
+    desc: 'Interfaces that feel as good as they look. Purposeful UX, design systems, and responsive front-ends that turn complexity into clarity.',
   },
 ]
 
@@ -28,11 +28,11 @@ export default function Services() {
         <div className="services-left">
           <div className="section-eyebrow reveal">SERVICES</div>
           <h2 className="services-heading reveal reveal-1">
-            WHAT I<br /><em>DELIVER</em>
+            WHAT I<br /><em>BUILD</em>
           </h2>
           <p className="services-sub reveal reveal-2">
-            END-TO-END DIGITAL SOLUTIONS — FROM PIXEL-PERFECT UIs TO HARDENED
-            BACKEND SYSTEMS AND SECURITY AUDITS.
+            Digital products that combine engineering, design, and artificial
+            intelligence to solve complex problems at scale.
           </p>
         </div>
 

@@ -1,6 +1,6 @@
 const ITEMS = [
   'PHP', 'React', 'Angular', 'Node.js', 'Python',
-  'Drupal', 'Ionic', 'Firebase', 'PostgreSQL', 'Infosec',
+  'Drupal', 'Ionic', 'Firebase', 'PostgreSQL', 'UI/UX',
 ]
 
 export default function Marquee() {
