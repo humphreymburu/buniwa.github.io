@@ -2,15 +2,17 @@ import { useState } from 'react'
 import { projects } from '../data/projects'
 import PortfolioModal from './PortfolioModal'
 
-const FILTERS = ['all', 'dev', 'design', 'apps']
+const FILTERS = ['All', 'AI', 'Web Apps', 'Websites', 'Mobile', 'Other']
 
 export default function Portfolio() {
-  const [activeFilter, setActiveFilter] = useState('all')
+  const [activeFilter, setActiveFilter] = useState('All')
   const [selected, setSelected] = useState(null)
 
-  const visible = activeFilter === 'all'
+  const filterKey = activeFilter === 'All' ? null : activeFilter.toLowerCase()
+
+  const visible = !filterKey
     ? projects
-    : projects.filter(p => p.category === activeFilter)
+    : projects.filter(p => p.category === filterKey)
 
   return (
     <section id="download" className="portfolio-section">
@@ -25,7 +27,7 @@ export default function Portfolio() {
                 className={`btn btn-default filter-button${activeFilter === f ? ' active' : ''}`}
                 onClick={() => setActiveFilter(f)}
               >
-                {f.charAt(0).toUpperCase() + f.slice(1)}
+                {f}
               </button>
             ))}
           </div>
